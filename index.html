@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <div class="search">
+                <input type="text" maxlength="20" class="searchbar" placeholder="enter your location">
+                <button class="fa-solid fa-magnifying-glass" id="btn"></button>
+            </div>
+        </div>
+        <div class="error">
+             <h2>SORRY !! Location not found </h2>
+            <img src="/Weather app/error.png"  alt="NOT FOUND" >
+        </div>
+        <div class="body">
+            <img src="/Weather app/Clear.png" alt="weather_image" class="image">
+            <div class="weather-body">
+               <p class="dig">0<sup>°C</sup></p>
+               <p class="description">Status</p>         
+           </div>
+           <div class="detail">
+               <div class="humidity">
+                <i class="fa-solid fa-droplet"></i>
+                   <div class="text">
+                        <span id="humidity"
+                          >0 %</span>
+                         <p>Humidity</p>
+                   </div>
+               </div>
+               <div class="wind">
+                    <i class="fa-solid fa-wind"></i>               
+                <div class="text">
+                   <div class="text">
+                    <span id="wind">0 Km/H</span>
+                    <p>Wind speed</p>
+                   </div>
+               </div>
+               </div>
+          </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/44d2957cde.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>  
+</body>
+</html>

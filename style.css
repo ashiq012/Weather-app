@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+}
+body{
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.container{
+    height:min-content;
+    width:400px ;
+    background-color: rgb(235, 237, 225);
+    border-radius: 8px;
+    padding: 20px;
+}
+.search{
+    height: min-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchbar{
+    width: 80%;
+    height: 6vh;
+    font-size: 2.7vh;
+    font-weight: 900;
+    border-radius: 20px;
+    border: 1.5px solid rgb(170, 170, 170);
+
+    /* background-color: antiquewhite; */
+    padding: 7px 15px;
+}
+.search input::placeholder{
+    color: rgb(129, 126, 126);
+
+}
+
+.search button{
+    width:  45px;
+    height: 45px;
+    /* background-color: aqua; */
+    font-size: 3.5vh;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.search button:hover{
+    color: white;
+    background-color: rgb(170, 170, 170);
+
+}
+.body{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-block: 10px;
+    display: none;
+
+}
+.error{
+    align-items: center;
+    justify-content: center;
+    display: none;
+    flex-direction: column;
+    padding: 50px;
+}
+.error h2{
+  font-size: 2.9vh;
+  font-weight: 900;
+  margin: 3vh;
+  color: rgb(175, 4, 4);
+}
+.error img{
+    height: 100%;
+    width: 100%;
+
+}
+
+.image{
+    width: 60%;
+    height: fit-content;
+}
+.dig {
+    font-size: 8vh;
+    font-weight: 600;
+    margin: 5px;
+}
+.dis{
+    font-size: 3.5vh;
+    font-weight: 380;
+}
+.weather-body{
+    align-items: center;
+    margin-block: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.detail{
+    justify-content:space-between;
+    display: flex;
+    width: 100%;
+}
+/* humidity section */
+.humidity{
+    align-items: center;
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.wind{
+    align-items: center;
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.detail i{
+    font-size: 4vh;
+    padding-bottom: 5px;
+    padding: 0;
+}
+.text{
+    align-items: center;
+    width: 100%;
+    height: 5vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+}
